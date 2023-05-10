@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles_analytics.css">
+	<title>The Art of Analytics: Exploring Value from Data</title>
+	<script>
+		function generateRandomNumber() {
+			var inputNumber = parseInt(document.getElementById("inputNumber").value);
+			var randomNumber = Math.floor(Math.random() * 21) + 10;
+			document.getElementById("outputNumber").innerHTML = "Random number generated for input " + inputNumber + ": " + randomNumber;
+		}
+	</script>
+</head>
+<body>
+    <h1>The Art of Analytics: Exploring Value from Data</h1>
+    <br>
+	<label for="inputNumber">Enter a number:</label>
+	<input type="number" id="inputNumber" name="inputNumber" min="1" max="100">
+	<button onclick="generateRandomNumber()">Generate Random Number</button>
+	<p id="outputNumber"></p>
+</body>
+</html>

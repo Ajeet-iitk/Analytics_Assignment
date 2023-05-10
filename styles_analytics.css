@@ -1,0 +1,40 @@
+/* Set font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(to left bottom, #da0e0e, #e05e00, #da9200, #c8c000, #a8eb12);
+  }
+  
+  /* Style the label and input field */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the button */
+  button {
+    padding: 10px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0066b3;
+  }
+  
+  /* Style the output text */
+  #outputNumber {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
